@@ -10,9 +10,9 @@ function App() {
       <Router>
         <Nav />
         <Routes>
-          <Route path='/home' element={<LandingPage />} />
-          <Route path='/about' element={<CustomCoverage />} />
-          <Route path='/service' element={<AddQuote />} />
+          <Route path='/LandingPage' element={<LandingPage />} />
+          <Route path='/CustomCoverage' element={<CustomCoverage />} />
+          <Route path='/AddQuote' element={<AddQuote />} />
         </Routes>
       </Router>
     </>
