@@ -276,7 +276,7 @@ export const LandingPage = () => {
 
                 </section>
                 {/* <!--end of content--> */}
-                <div className="modal fade" id="custom-quote-form" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="custom-quote-formLabel" aria-hidden="true">
+                <div className="modal fade" id="custom-quote-form" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="custom-quote-formLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-header border-0 text-center pb-0">
@@ -341,7 +341,7 @@ export const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="driverlist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="driverlistLabel" aria-hidden="true">
+                <div className="modal fade" id="driverlist" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="driverlistLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-header border-0 text-center pb-0">
@@ -379,7 +379,7 @@ export const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="carlist" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="carlistLabel" aria-hidden="true">
+                <div className="modal fade" id="carlist" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="carlistLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered modal-lg">
                         <div className="modal-content">
                             <div className="modal-header border-0 text-center pb-0">
@@ -473,7 +473,7 @@ export const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="add-driver" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="add-driverLabel" aria-hidden="true">
+                <div className="modal fade" id="add-driver" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="add-driverLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-header border-0 text-center">
@@ -521,7 +521,7 @@ export const LandingPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="modal fade" id="add-car" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="add-carLabel" aria-hidden="true">
+                <div className="modal fade" id="add-car" data-backdrop="static" data-keyboard="false" tabIndex="-1" aria-labelledby="add-carLabel" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered modal-lg">
                         <div className="modal-content">
                             <div className="modal-header border-0 text-center">
@@ -552,7 +552,7 @@ export const LandingPage = () => {
                                     </div>
                                     {/* <!--end of col-12--> */}
                                     <div className="col-md-12 mb-0">
-                                        <div className="scrollarea-content content" tabindex="1">
+                                        <div className="scrollarea-content content" tabIndex="1">
                                             <button type="button" className="list-group-item list-group-item-action"><img className="img-fluid carLogo" src="https://quote.amaxinsurance.com/img/carLogos/ACURA@3x.png" alt="ACURA logo" /><h6 className="mb-1 title c-red">ACURA</h6></button>
                                             <button type="button" className="list-group-item list-group-item-action"><img className="img-fluid carLogo" src="https://quote.amaxinsurance.com/img/carLogos/AUDI@3x.png" alt="AUDI logo" /><h6 className="mb-1 title c-red">AUDI</h6></button>
                                             <button type="button" className="list-group-item list-group-item-action"><img className="img-fluid carLogo" src="https://quote.amaxinsurance.com/img/carLogos/BMW@3x.png" alt="BMW logo" /><h6 className="mb-1 title c-red">BMW</h6></button>

@@ -1,14 +1,20 @@
 import './App.css';
-import { AddQuote } from './component/AddQuote';
-import { CustomCoverage } from './component/CustomCoverage';
-import { LandingPage } from './component/LandingPage';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { AddQuote } from './Pages/AddQuote';
+import { CustomCoverage } from './Pages/CustomCoverage';
+import { LandingPage } from './Pages/LandingPage';
+import { Nav } from './component/Nav'
 function App() {
   return (
     <>
-      <LandingPage />
-      {/* <CustomCoverage /> */}
-      {/* <AddQuote /> */}
+      <Router>
+        <Nav />
+        <Routes>
+          <Route path='/home' element={<LandingPage />} />
+          <Route path='/about' element={<CustomCoverage />} />
+          <Route path='/service' element={<AddQuote />} />
+        </Routes>
+      </Router>
     </>
   );
 }
