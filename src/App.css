@@ -45,7 +45,7 @@ a {
 .container-fluid {
   max-width: 900px
 }
-
+.navbar{display:none}
 .quote-form {
   padding: 0 50px;
   background: #FFF;
@@ -574,10 +574,7 @@ header.normal {
 }
 
 @media screen and (max-width:950px) {
-  .content {
-    margin-left: 15px;
-    margin-right: 15px
-  }
+  
 }
 
 @media screen and (max-width:767px) {
