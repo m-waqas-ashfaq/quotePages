@@ -579,7 +579,9 @@ header.normal {
   .header .col-3>*:not(.img) {display: none;}.header .img{margin:0}
   .header .col-3{display:inline-flex; justify-content:center}
 }
-
+@media screen and (max-width:991px) {
+  .sticky-con.normal{width:calc(100% - 30px);margin:0 15px}
+}
 @media screen and (max-width:767px) {
   .container-fluid.quote-form {
     padding: 0;
