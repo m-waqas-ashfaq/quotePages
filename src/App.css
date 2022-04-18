@@ -451,10 +451,6 @@ header.normal {
   max-width: 1050px;
 }
 
-.sticky-con .container-fluid.quote-form .form-control {
-  width: calc(100% - 34px);
-  height: 40px !important;
-}
 
 .driver-next {
   width: 45% !important;
