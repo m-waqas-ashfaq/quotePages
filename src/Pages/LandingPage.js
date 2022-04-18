@@ -6,25 +6,25 @@ export const LandingPage = () => {
             <div className='quotes-page'>
                 <div className="col-12 header">
                     <div className="row">
-                        <a href="#driver" className="col-md-3 driver active p-2">
+                        <a href="#driver" className="col-3 driver active p-2">
                             <span className="img fas fa-user-tie float-left"></span>
                             <h3>Driver</h3>
                             <span>Add Driver Information</span>
                         </a>
                         {/* <!--end of col-12--> */}
-                        <a className="col-md-3 car p-2" href="#car">
+                        <a className="col-3 car p-2" href="#car">
                             <span className="img fas fa-car float-left"></span>
                             <h3>Car</h3>
                             <span>Add Your Car Information</span>
                         </a>
                         {/* <!--end of col-12--> */}
-                        <a href="#coverage" className="col-md-3 policy p-2">
+                        <a href="#coverage" className="col-3 policy p-2">
                             <span className="img fa fa-thumbs-up float-left"></span>
                             <h3>Coverage</h3>
                             <span>Add Your coverage Information</span>
                         </a>
                         {/* <!--end of col-12--> */}
-                        <div className="col-md-3 quote p-2">
+                        <div className="col-3 quote p-2">
                             <span className="img fas fa-quote-right float-left"></span>
                             <h3>Quotes</h3>
                             <span className="">Custom quotes</span>
@@ -74,7 +74,7 @@ export const LandingPage = () => {
                 </div>
                 <section className="content">
                     <div className="row m-0">
-                        <div className="col-auto pl-0">
+                        <div className="col-md-auto pl-md-0">
                             <div className="sidebar my-4">
                                 <div className="d-block border-bottom p-3">
                                     <h2>Zip Code</h2>
@@ -98,7 +98,7 @@ export const LandingPage = () => {
                             {/* <!--end of sidebar--> */}
                         </div>
                         {/* <!--end of col-auto--> */}
-                        <div className="col pr-0">
+                        <div className="col pr-md-0">
                             <div className="quote-form my-4">
                                 <div className="container-fluid">
                                     <form className="row align-items-center pt-4">
@@ -163,7 +163,7 @@ export const LandingPage = () => {
                                         </div>
                                         {/* <!--end of col-lg-6--> */}
                                         <div className="col-12 mb-3">
-                                            <label className="d-inline-block mb-2">Do you Own or Rent your home?</label>
+                                            <label className="d-inline-block mb-2 home-label">Do you Own or Rent your home?</label>
                                             <div className="term home ml-3 mb-2"><input type="radio" checked name="home" />Own<span></span></div>
                                             <div className="term home ml-2 mb-2"><input type="radio" name="home" />Rent<span></span></div>
                                         </div>
