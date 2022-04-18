@@ -273,12 +273,12 @@ button[type="submit"],
   margin: 0;
 }
 
-.header .col-md-3 {
+.header .col-3 {
   border-bottom: 2px solid #2d3e50;
   border-right: 1px solid #2d3e50 !important
 }
 
-.header .col-md-3:last-child {
+.header .col-3:last-child {
   border-right: 0 !important;
 }
 
@@ -573,14 +573,16 @@ header.normal {
   color: #E7666A
 }
 
-@media screen and (max-width:950px) {
-  
+@media screen and (max-width:991px) {
+  .border-box.colored>div{height:90px;}
+  .quote-form{padding:0}
 }
 
 @media screen and (max-width:767px) {
   .container-fluid.quote-form {
     padding: 0 20px;
   }
+  .sidebar, .quote-form{padding:0;width:100%;border-radius:10px;}
 }
 
 @media screen and (max-width:576px) {
