@@ -114,7 +114,7 @@ export const LandingPage = () => {
 
                                         </div>
                                         {/* <!--end of col-lg-6--> */}
-                                        <div className="col-lg-6">
+                                        <div className="col-lg-6 mt-3 mt-lg-0">
                                             <input type="text" placeholder="Please enter your TX Driver's License #" className="form-control" />
                                         </div>
                                         {/* <!--end of col-lg-6--> */}
