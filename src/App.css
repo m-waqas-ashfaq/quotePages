@@ -577,6 +577,10 @@ header.normal {
 }
 @media screen and (max-width:991px) {
   .sticky-con.normal{width:calc(100% - 30px);margin:0 15px}
+  label.d-inline-block.mb-2.home-label {
+    display: block !important;
+}
+  label.d-inline-block.mb-2.home-label + div{margin-left:0 !important;}
 }
 @media screen and (max-width:767px) {
   .container-fluid.quote-form {
