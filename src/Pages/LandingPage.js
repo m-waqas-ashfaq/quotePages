@@ -103,7 +103,7 @@ export const LandingPage = () => {
                                 <div className="container-fluid">
                                     <form className="row align-items-center pt-4">
                                         <h1 className="col-12 my-5 text-center">Let's start with the primary driver's information</h1>
-                                        <div className="col-md-6">
+                                        <div className="col-lg-6">
                                             <select className="custom-select form-control">
                                                 <option value="Texes DL">Texes DL</option>
                                                 <option value="TX ID.">TX ID.</option>
@@ -113,11 +113,11 @@ export const LandingPage = () => {
                                             </select>
 
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6">
                                             <input type="text" placeholder="Please enter your TX Driver's License #" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
+                                        {/* <!--end of col-lg-6--> */}
                                         <div className="col-md-12 mt-3">
                                             <input type="checkbox" className="mr-2" /> I agree to the following <a href="#">information disclosure</a> and <a href="#">privacy policy</a>.
                                         </div>
@@ -128,47 +128,47 @@ export const LandingPage = () => {
                                             </div>
                                         </div>
                                         {/* <!--end of col-12--> */}
-                                        <div className="col-md-6 mb-3">
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="First Name" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="Last name" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="Date of Birth" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
+                                        {/* <!--end of col-lg-6--> */}
                                         <div className="col-12 mt-5 mb-4">
                                             <div className="con-heading">
                                                 <h2>Please tell us where your(s) vahicle will be parked</h2>
                                             </div>
                                         </div>
                                         {/* <!--end of col-12--> */}
-                                        <div className="col-md-6 mb-3">
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="Street Address" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="City" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="State" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="Zip Code" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
+                                        {/* <!--end of col-lg-6--> */}
                                         <div className="col-12 mb-3">
                                             <label className="d-inline-block mb-2">Do you Own or Rent your home?</label>
                                             <div className="term home ml-3 mb-2"><input type="radio" checked name="home" />Own<span></span></div>
                                             <div className="term home ml-2 mb-2"><input type="radio" name="home" />Rent<span></span></div>
                                         </div>
                                         {/* <!--end of col-12--> */}
-                                        <div className="col-md-6 mb-3">
+                                        <div className="col-lg-6 mb-3">
                                             <label>Marital Status</label>
                                             <div className="form-row">
                                                 <div className="col">
@@ -192,8 +192,8 @@ export const LandingPage = () => {
                                             </div>
                                             {/* <!--end of form-row--> */}
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <label>Gender</label>
                                             <div className="form-row">
                                                 <div className="col">
@@ -217,7 +217,7 @@ export const LandingPage = () => {
                                             </div>
                                             {/* <!--end of form-row--> */}
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
+                                        {/* <!--end of col-lg-6--> */}
                                         <div className="col-12"><a href="#" data-toggle="modal" data-target="#driverlist">Add another Driver</a></div>
                                         <div className="col-12 mt-5 mb-3" id="car">
                                             <div className="con-heading">
@@ -253,18 +253,18 @@ export const LandingPage = () => {
                                             <div className="con-heading"><h2>provide phone number and email to inform you about the opportunity</h2></div>
                                         </div>
                                         {/* <!--end of col-12--> */}
-                                        <div className="col-md-6 mb-3">
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="State" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
-                                        <div className="col-md-6 mb-3">
+                                        {/* <!--end of col-lg-6--> */}
+                                        <div className="col-lg-6 mb-3">
                                             <input type="text" placeholder="Zip Code" className="form-control" />
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
+                                        {/* <!--end of col-lg-6--> */}
                                         <div className="col-md-12 mb-5 mt-3">
                                             <button type="submit">Get Quotes</button>
                                         </div>
-                                        {/* <!--end of col-md-6--> */}
+                                        {/* <!--end of col-lg-6--> */}
                                     </form>
                                 </div>
                             </div>
