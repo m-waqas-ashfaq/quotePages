@@ -576,11 +576,13 @@ header.normal {
 @media screen and (max-width:991px) {
   .border-box.colored>div{height:90px;}
   .quote-form{padding:0}
+  .header .col-3>*:not(.img) {display: none;}
+  .header .col-3{display:inline-flex; justify-content:center}
 }
 
 @media screen and (max-width:767px) {
   .container-fluid.quote-form {
-    padding: 0 20px;
+    padding: 0;
   }
   .sidebar, .quote-form{padding:0;width:100%;border-radius:10px;}
 }
