@@ -109,6 +109,7 @@ a {
   height: 100%;
   opacity: 0;
   cursor: pointer;
+  z-index:10
 }
 
 .border-box.status {
