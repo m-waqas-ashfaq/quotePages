@@ -137,7 +137,7 @@ export const LandingPage = () => {
                                         </div>
                                         {/* <!--end of col-lg-6--> */}
                                         <div className="col-lg-6 mb-3">
-                                            <input type="text" placeholder="Date of Birth" className="form-control" />
+                                            <input type="date" placeholder="Date of Birth" className="form-control" />
                                         </div>
                                         {/* <!--end of col-lg-6--> */}
                                         <div className="col-12 mt-5 mb-4">
@@ -162,7 +162,7 @@ export const LandingPage = () => {
                                             <input type="text" placeholder="Zip Code" className="form-control" />
                                         </div>
                                         {/* <!--end of col-lg-6--> */}
-                                        <div className="col-12 mb-3">
+                                        <div className="col-12 mb-3"><input type="radio" checked name="home2" /><input type="radio" checked name="home2" />
                                             <label className="d-inline-block mb-2 home-label">Do you Own or Rent your home?</label>
                                             <div className="term home ml-3 mb-2"><input type="radio" checked name="home" />Own<span></span></div>
                                             <div className="term home ml-2 mb-2"><input type="radio" name="home" />Rent<span></span></div>
